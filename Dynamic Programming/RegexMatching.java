@@ -1,4 +1,7 @@
-
+/*
+    Contributed by Md. A. Barik
+    Video on TechBarik YouTube channel - https://www.youtube.com/watch?v=DrPKvbCjmbo
+*/
 public class RegexMatching {
 
 	public static void main(String args[]) {
@@ -8,6 +11,7 @@ public class RegexMatching {
     }
 
     public static boolean is_match(char[] s, char[] p) {
+	// constractng a dynamic programming table T (2D array)
         boolean T[][] = new boolean[s.length + 1][p.length + 1];
 
         T[0][0] = true;
