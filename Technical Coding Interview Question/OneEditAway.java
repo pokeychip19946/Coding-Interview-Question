@@ -1,4 +1,9 @@
-public class OA {
+/*
+    Contributed by: Md. A. Barik
+    Video Explanation: https://youtu.be/flTxRaeUNtc
+*/
+
+public class OneEditAway {
     public static void main(String[] args) {
         // The following input value for test
         isOneAway("abcde", "abcd");  // should return true
