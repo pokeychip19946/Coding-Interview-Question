@@ -1,3 +1,7 @@
+/*
+  Contributed by: Md. A. Barik
+  Video Explanation: https://youtu.be/MtxlPXms0fQ
+*/
 public class KnapSack {
 
   public static int bottomUpDP(int val[], int wt[], int W){
