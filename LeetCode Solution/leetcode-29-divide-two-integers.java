@@ -1,6 +1,18 @@
 /*  
     Video explanation: https://youtu.be/V20qmx_l2-4
 */
+/*
+Time Complexity Fixed:
+Let say dividend / divisor = N
+The complexity will be O((logN)^2).
+
+Take a look at the worst case:
+dividend = 1+2+4+8+16... = 2*N + 1
+divisor = 2
+Then in the first loop, the time complexity will be log(N),
+and in the second run, it will reduce to log(N/2) = logN - 1,
+so the total number of steps will be 1+2+...+ logN-1+ logN = O((logN)^2).
+*/
 class Solution {
     public int divide(int dividend, int divisor) {
         System.out.println(1<<2);
