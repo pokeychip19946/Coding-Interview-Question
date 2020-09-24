@@ -24,6 +24,7 @@ class Solution {
 }
 
 /***Intuitive Solution Without long***/
+/*Try solving this problem using the following code*/
 
 class Solution {
       public int divide(int A, int B) {
