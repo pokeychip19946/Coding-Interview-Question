@@ -26,3 +26,13 @@ class Solution {
         return results;
     }
 }
+
+/*
+    Time complexity is O(2^N) where N is a length of candidates array.
+    Space complexity is O(target).
+
+    The runtime: O(2^n)
+    T(n) = T(n-1) + T(n-2) + T(n-2) ...
+    T(n-1) = T(n-2)+T(n-3)... replace T(n-1) in the above,
+    So, T(n) = 2 * [ T(n-2) + T(n-3) ], and so on, T(n) = O(2^n)
+*/
